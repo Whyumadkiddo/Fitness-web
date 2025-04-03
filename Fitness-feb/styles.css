@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    background-image: url('images/bg.webp'); /* Укажите путь к вашему фоновому изображению */
-    background-size: 100% auto; /* Растягивание по ширине */
+    background-image: url('images/bg.webp');
+    background-size: 100% auto;
     background-position: center;
     color: #333;
     margin: 0;
@@ -33,8 +33,8 @@ header {
 }
 
 .club-images img {
-    max-width: 550px; /* Ограничение размера изображения клуба */
-    height: auto; /* Сохранение пропорций */
+    max-width: 550px;
+    height: auto;
     margin: 10px 0;
 }
 
@@ -60,19 +60,19 @@ header {
     transition: background-color 0.3s;
     width: 80%;
     margin: 0 auto;
-    background-color: #000; /* Черный фон для блоков с тренерами */
-    color: #fff; /* Белый текст для контраста */
+    background-color: #000;
+    color: #fff; 
 }
 
 .trainer:hover {
     background-color: #ffcc00;
-    color: #000; /* Черный текст при наведении */
+    color: #000;
 }
 
 .trainer img {
-    width: 250px; /* Ограничение размера изображения */
-    height: 250px; /* Ограничение размера изображения */
-    object-fit: cover; /* Сохранение пропорций */
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
     border-radius: 50%;
 }
 
